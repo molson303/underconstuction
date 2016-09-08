@@ -1,0 +1,17 @@
+.background{
+  background-image: url("cPencile.jpg");
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 5em;
+}
+
+h2{
+  margin-top: 20%;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 3em;
+  font-weight: bold;
+}
