@@ -22,7 +22,7 @@ and (max-device-width : 480px) {
     margin-top: 20%;
     font-family: 'Reenie Beanie', cursive;
     font-size: 4em;
-    font-weight: bold;
+    font-weight: 300;
     letter-spacing: .1px;
     color: black;
   }
