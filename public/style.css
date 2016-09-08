@@ -19,7 +19,7 @@ and (max-device-width : 480px) {
   h2{
     margin-top: 20%;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
   }
 }
@@ -38,6 +38,6 @@ and (min-width : 481px) {
   h2{
     margin-top: 20%;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
   }}
