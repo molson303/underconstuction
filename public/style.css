@@ -14,6 +14,8 @@ and (max-device-width : 480px) {
   h1{
     font-family: 'Reenie Beanie', cursive;
     font-size: 5em;
+    letter-spacing: .2px;
+    color: black;
   }
 
   h2{
@@ -21,31 +23,45 @@ and (max-device-width : 480px) {
     font-family: 'Reenie Beanie', cursive;
     font-size: 4em;
     font-weight: bold;
+    letter-spacing: .1px;
+    color: black;
   }
   .footer{
     background-color: black;
-    height: 15vh;
+    height: 24vh;
     width: 100%;
   }
-
-
-
 }
 
 @media only screen
 and (min-width : 481px) {
-  #backgroundImage{
-    background-image: url("cPencile.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  html{
+    background: url("cPencile.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
   }
   h1{
+    padding-top: -1px;
     font-family: 'Reenie Beanie', cursive;
     font-size: 5em;
+    letter-spacing: .5px;
+    color: black;
+    font-weight: bold;
+
   }
   h2{
-    margin-top: 20%;
+    margin-top: 15%;
     font-family: 'Reenie Beanie', cursive;
     font-size: 4em;
     font-weight: bold;
-  }}
+    letter-spacing: .5px;
+    position: absolute;
+    color: black;
+  }
+
+  .topColor{
+    background: linear-gradient(#343C93, #F6F0EE);
+  }
+  .spacer{
+    margin-top: -1.5px;
+  }
+}
